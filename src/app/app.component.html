@@ -1,0 +1,8 @@
+
+    <form [formGroup]="stripeTest" (ngSubmit)="buy($event)" role="form" novalidate>
+  <input type="text" formControlName="name" placeholder="Jane Doe">
+  <div id="card-element" class="field" #card></div>
+  <button type="submit">
+    BUY
+  </button>
+</form>
